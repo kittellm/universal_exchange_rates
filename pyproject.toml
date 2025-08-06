@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "forex-lite"
+version = "0.1.0"
+description = "Lightweight currency exchange rate client using open, no-key APIs."
+readme = "README.md"
+authors = [
+  { name = "Max Kittell"}
+]
+license = { file = "LICENSE" }
+keywords = ["exchange", "currency", "forex", "api"]
+dependencies = ["requests"]
+
+[project.urls]
+"Homepage" = "https://github.com/kittellm/universal_exchange_rates"
